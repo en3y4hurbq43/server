@@ -11,7 +11,7 @@ app.use(express.json()); // Permite recibir JSON en las peticiones
 const db = mysql.createConnection({
   host: process.env.DB_HOST || 'srv523.hstgr.io',
   user: process.env.DB_USER || 'u855233599_axel',
-  password: process.env.DB_PASSWORD || '',
+  password: process.env.DB_PASSWORD || 'Axel1234567899$',
   database: process.env.DB_NAME || 'u855233599_reportes_db'
 });
 
