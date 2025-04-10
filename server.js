@@ -10,9 +10,9 @@ app.use(express.json()); // Permite recibir JSON en las peticiones
 // Configuración de la base de datos
 const db = mysql.createConnection({
   host: process.env.DB_HOST || 'localhost',
-  user: process.env.DB_USER || 'root',
+  user: process.env.DB_USER || 'u855233599_axel',
   password: process.env.DB_PASSWORD || '',
-  database: process.env.DB_NAME || 'reportes_db'
+  database: process.env.DB_NAME || 'u855233599_reportes_db'
 });
 
 // Conectar a la base de datos
